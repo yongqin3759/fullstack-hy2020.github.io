@@ -81,7 +81,7 @@ Let's also add a new action <em>appendNote</em> for adding a note object:
 ```js
 const noteSlice = createSlice({
   name: 'notes',
-  initialState,
+  initialState: [],
   reducers: {
     createNote(state, action) {
       const content = action.payload
